@@ -1,0 +1,320 @@
+{
+  "domain": "AI & ML",
+  "subjects": [
+    {
+      "name": "Introduction to AI",
+      "topics": [
+        {
+          "title": "Timeline & Key Milestones of AI",
+          "type": "PDF",
+          "level": "Beginner",
+          "link": "https://www.ibm.com/cloud/learn/what-is-artificial-intelligence"
+        },
+        {
+          "title": "Differences Explained with Real-Life Examples",
+          "type": "PDF",
+          "level": "Beginner",
+          "link": "https://www.geeksforgeeks.org/difference-between-ai-ml-and-dl/"
+        },
+        {
+          "title": "AI Use-Cases Across Industries",
+          "type": "Video",
+          "level": "Beginner",
+          "link": "https://dummy.com/ai-usecases-video"
+        },
+        {
+          "title": "Reactive, Limited Memory, Theory of Mind, Self-Aware",
+          "type": "PDF",
+          "level": "Beginner",
+          "link": "https://www.geeksforgeeks.org/types-of-artificial-intelligence/"
+        },
+        {
+          "title": "Core Concepts and Comparisons",
+          "type": "PDF",
+          "level": "Beginner",
+          "link": "https://www.techtarget.com/searchenterpriseai/definition/weak-AI-narrow-AI"
+        }
+      ]
+    },
+    {
+      "name": "ML Fundamentals",
+      "topics": [
+        {
+          "title": "Supervised, Unsupervised & Reinforcement Learning",
+          "type": "PDF",
+          "level": "Beginner",
+          "link": "https://www.geeksforgeeks.org/types-of-machine-learning/"
+        },
+        {
+          "title": "Steps from Data Collection to Deployment",
+          "type": "PDF",
+          "level": "Beginner",
+          "link": "https://www.analyticsvidhya.com/blog/2021/10/ml-model-life-cycle/"
+        },
+        {
+          "title": "Understanding Input and Output Variables",
+          "type": "Video",
+          "level": "Beginner",
+          "link": "https://dummy.com/input-output-video"
+        },
+        {
+          "title": "Concept of Training, Validation, and Testing",
+          "type": "PDF",
+          "level": "Beginner",
+          "link": "https://www.geeksforgeeks.org/training-validation-and-test-sets/"
+        },
+        {
+          "title": "Causes and Techniques to Handle Them",
+          "type": "PDF",
+          "level": "Beginner",
+          "link": "https://machinelearningmastery.com/how-to-handle-missing-data/"
+        }
+      ]
+    },
+    {
+      "name": "Supervised Learning",
+      "topics": [
+        {
+          "title": "Understanding Output Types & Use Cases",
+          "type": "PDF",
+          "level": "Beginner",
+          "link": "https://scikit-learn.org/stable/supervised_learning.html"
+        },
+        {
+          "title": "Linear Regression, Logistic Regression, Decision Trees",
+          "type": "PDF",
+          "level": "Beginner",
+          "link": "https://www.geeksforgeeks.org/machine-learning-algorithms/"
+        },
+        {
+          "title": "Accuracy, Precision, Recall, F1-Score Explained",
+          "type": "PDF",
+          "level": "Beginner",
+          "link": "https://www.geeksforgeeks.org/classification-model-evaluation-accuracy-precision-recall-f1-score/"
+        },
+        {
+          "title": "Bias-Variance Tradeoff & Cross-Validation Techniques",
+          "type": "Video",
+          "level": "Beginner",
+          "link": "https://dummy.com/bias-variance-video"
+        },
+        {
+          "title": "Building a Classifier with Scikit-learn",
+          "type": "Video",
+          "level": "Beginner",
+          "link": "https://dummy.com/scikit-classifier-video"
+        }
+      ]
+    },
+    {
+      "name": "Unsupervised Learning",
+      "topics": [
+        {
+          "title": "What is Clustering? K-Means and Hierarchical Overview",
+          "type": "PDF",
+          "level": "Beginner",
+          "link": "https://www.geeksforgeeks.org/clustering-in-machine-learning/"
+        },
+        {
+          "title": "PCA and t-SNE Explained Visually",
+          "type": "Video",
+          "level": "Intermediate",
+          "link": "https://dummy.com/pca-tsne-video"
+        },
+        {
+          "title": "Real-World Use Cases: Segmentation, Recommendation",
+          "type": "PDF",
+          "level": "Intermediate",
+          "link": "https://www.analyticsvidhya.com/blog/2021/06/real-life-applications-of-unsupervised-learning/"
+        },
+        {
+          "title": "Silhouette Score, Davies-Bouldin Index",
+          "type": "PDF",
+          "level": "Intermediate",
+          "link": "https://scikit-learn.org/stable/modules/clustering.html#clustering-performance-evaluation"
+        },
+        {
+          "title": "Clustering with Scikit-learn",
+          "type": "Video",
+          "level": "Intermediate",
+          "link": "https://dummy.com/sklearn-clustering-video"
+        }
+      ]
+    },
+    {
+      "name": "Deep Learning",
+      "topics": [
+        {
+          "title": "Introduction to Neural Networks – Neurons & Layers",
+          "type": "PDF",
+          "level": "Beginner",
+          "link": "https://www.geeksforgeeks.org/neural-networks/"
+        },
+        {
+          "title": "ReLU, Sigmoid, Tanh – How They Work",
+          "type": "PDF",
+          "level": "Beginner",
+          "link": "https://www.analyticsvidhya.com/blog/2021/06/activation-functions-and-its-types/"
+        },
+        {
+          "title": "Gradient Descent & Backpropagation Explained",
+          "type": "Video",
+          "level": "Intermediate",
+          "link": "https://dummy.com/backpropagation-video"
+        },
+        {
+          "title": "Convolutional Neural Networks – Image Processing Use Cases",
+          "type": "Video",
+          "level": "Intermediate",
+          "link": "https://dummy.com/cnn-usecase-video"
+        },
+        {
+          "title": "Getting Started with TensorFlow & PyTorch",
+          "type": "PDF",
+          "level": "Intermediate",
+          "link": "https://www.geeksforgeeks.org/introduction-to-tensorflow-and-pytorch/"
+        }
+      ]
+    },
+    {
+      "name": "Natural Language Processing (NLP)",
+      "topics": [
+        {
+          "title": "Tokenization, Lemmatization & Stop Words Removal",
+          "type": "PDF",
+          "level": "Beginner",
+          "link": "https://www.geeksforgeeks.org/natural-language-processing-tokenization/"
+        },
+        {
+          "title": "Feature Extraction Techniques for Text",
+          "type": "PDF",
+          "level": "Intermediate",
+          "link": "https://www.analyticsvidhya.com/blog/2021/10/feature-engineering-for-text-data/"
+        },
+        {
+          "title": "Word2Vec, GloVe & Embedding Basics",
+          "type": "Video",
+          "level": "Intermediate",
+          "link": "https://dummy.com/word2vec-video"
+        },
+        {
+          "title": "Named Entity Recognition, POS Tagging, Text Classification",
+          "type": "PDF",
+          "level": "Intermediate",
+          "link": "https://www.geeksforgeeks.org/nlp-python-handling-entity-recognition/"
+        },
+        {
+          "title": "Introduction to Transformers & BERT in NLP",
+          "type": "Video",
+          "level": "Advanced",
+          "link": "https://dummy.com/transformers-bert-video"
+        }
+      ]
+    },
+    {
+      "name": "Computer Vision",
+      "topics": [
+        {
+          "title": "Basics: Pixels, Color Models, Histograms",
+          "type": "PDF",
+          "level": "Beginner",
+          "link": "https://www.geeksforgeeks.org/image-processing-introduction/"
+        },
+        {
+          "title": "Edge Detection, Contours, Keypoints (SIFT, SURF, ORB)",
+          "type": "PDF",
+          "level": "Intermediate",
+          "link": "https://www.geeksforgeeks.org/keypoint-detection-in-image-processing/"
+        },
+        {
+          "title": "Convolutional Neural Networks – Architecture & Flow",
+          "type": "Video",
+          "level": "Intermediate",
+          "link": "https://dummy.com/cnn-architecture-video"
+        },
+        {
+          "title": "YOLO, SSD, R-CNN – Overview & Comparison",
+          "type": "Video",
+          "level": "Advanced",
+          "link": "https://dummy.com/yolo-ssd-video"
+        },
+        {
+          "title": "Techniques for Better Model Generalization",
+          "type": "PDF",
+          "level": "Advanced",
+          "link": "https://machinelearningmastery.com/generalization-in-machine-learning/"
+        }
+      ]
+    },
+    {
+      "name": "Model Evaluation & Optimization",
+      "topics": [
+        {
+          "title": "Accuracy, Precision, Recall, F1, ROC-AUC – Explained",
+          "type": "PDF",
+          "level": "Beginner",
+          "link": "https://www.geeksforgeeks.org/classification-model-evaluation-accuracy-precision-recall-f1-score/"
+        },
+        {
+          "title": "K-Fold, Stratified CV – When and How to Use",
+          "type": "PDF",
+          "level": "Intermediate",
+          "link": "https://www.analyticsvidhya.com/blog/2021/07/k-fold-cross-validation/"
+        },
+        {
+          "title": "Grid Search vs Random Search vs Bayesian Optimization",
+          "type": "Video",
+          "level": "Intermediate",
+          "link": "https://dummy.com/hyperparameter-video"
+        },
+        {
+          "title": "Underfitting vs Overfitting – Visual Intuition",
+          "type": "PDF",
+          "level": "Beginner",
+          "link": "https://www.geeksforgeeks.org/underfitting-and-overfitting-in-machine-learning/"
+        },
+        {
+          "title": "L1, L2, Dropout – How They Help in Optimization",
+          "type": "Video",
+          "level": "Advanced",
+          "link": "https://dummy.com/l1-l2-dropout-video"
+        }
+      ]
+    },
+    {
+      "name": "AI Ethics & Applications",
+      "topics": [
+        {
+          "title": "Bias, Fairness, and Transparency in AI – An Overview",
+          "type": "PDF",
+          "level": "Beginner",
+          "link": "https://www.ibm.com/blog/bias-in-ai/"
+        },
+        {
+          "title": "What is XAI? Tools & Techniques to Make AI Transparent",
+          "type": "Video",
+          "level": "Intermediate",
+          "link": "https://dummy.com/xai-video"
+        },
+        {
+          "title": "Real-World Cases: Autonomous Cars, Surveillance, Social Scoring",
+          "type": "PDF",
+          "level": "Intermediate",
+          "link": "https://builtin.com/artificial-intelligence/examples-of-artificial-intelligence"
+        },
+        {
+          "title": "Applications in Healthcare, Agriculture, and Education",
+          "type": "Video",
+          "level": "Intermediate",
+          "link": "https://dummy.com/ai-industries-video"
+        },
+        {
+          "title": "Guidelines & Frameworks from Google, IBM, EU AI Act",
+          "type": "PDF",
+          "level": "Advanced",
+          "link": "https://artificialintelligenceact.eu/"
+        }
+      ]
+    }
+  ]
+}
