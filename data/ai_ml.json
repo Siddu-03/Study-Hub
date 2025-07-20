@@ -6,13 +6,13 @@
       "topics": [
         {
           "title": "Timeline & Key Milestones of AI",
-          "type": "PDF",
+          "type": "Article",
           "level": "Beginner",
           "link": "https://www.ibm.com/cloud/learn/what-is-artificial-intelligence"
         },
         {
           "title": "Differences Explained with Real-Life Examples",
-          "type": "PDF",
+          "type": "Article",
           "level": "Beginner",
           "link": "https://www.geeksforgeeks.org/difference-between-ai-ml-and-dl/"
         },
@@ -24,13 +24,13 @@
         },
         {
           "title": "Reactive, Limited Memory, Theory of Mind, Self-Aware",
-          "type": "PDF",
+          "type": "Article",
           "level": "Beginner",
           "link": "https://www.geeksforgeeks.org/types-of-artificial-intelligence/"
         },
         {
           "title": "Core Concepts and Comparisons",
-          "type": "PDF",
+          "type": "Article",
           "level": "Beginner",
           "link": "https://www.techtarget.com/searchenterpriseai/definition/weak-AI-narrow-AI"
         }
@@ -41,13 +41,13 @@
       "topics": [
         {
           "title": "Supervised, Unsupervised & Reinforcement Learning",
-          "type": "PDF",
+          "type": "Article",
           "level": "Beginner",
           "link": "https://www.geeksforgeeks.org/types-of-machine-learning/"
         },
         {
           "title": "Steps from Data Collection to Deployment",
-          "type": "PDF",
+          "type": "Article",
           "level": "Beginner",
           "link": "https://www.analyticsvidhya.com/blog/2021/10/ml-model-life-cycle/"
         },
@@ -59,13 +59,13 @@
         },
         {
           "title": "Concept of Training, Validation, and Testing",
-          "type": "PDF",
+          "type": "Article",
           "level": "Beginner",
           "link": "https://www.geeksforgeeks.org/training-validation-and-test-sets/"
         },
         {
           "title": "Causes and Techniques to Handle Them",
-          "type": "PDF",
+          "type": "Article",
           "level": "Beginner",
           "link": "https://machinelearningmastery.com/how-to-handle-missing-data/"
         }
@@ -76,19 +76,19 @@
       "topics": [
         {
           "title": "Understanding Output Types & Use Cases",
-          "type": "PDF",
+          "type": "Article",
           "level": "Beginner",
           "link": "https://scikit-learn.org/stable/supervised_learning.html"
         },
         {
           "title": "Linear Regression, Logistic Regression, Decision Trees",
-          "type": "PDF",
+          "type": "Article",
           "level": "Beginner",
           "link": "https://www.geeksforgeeks.org/machine-learning-algorithms/"
         },
         {
           "title": "Accuracy, Precision, Recall, F1-Score Explained",
-          "type": "PDF",
+          "type": "Article",
           "level": "Beginner",
           "link": "https://www.geeksforgeeks.org/classification-model-evaluation-accuracy-precision-recall-f1-score/"
         },
@@ -111,7 +111,7 @@
       "topics": [
         {
           "title": "What is Clustering? K-Means and Hierarchical Overview",
-          "type": "PDF",
+          "type": "Article",
           "level": "Beginner",
           "link": "https://www.geeksforgeeks.org/clustering-in-machine-learning/"
         },
@@ -123,13 +123,13 @@
         },
         {
           "title": "Real-World Use Cases: Segmentation, Recommendation",
-          "type": "PDF",
+          "type": "Article",
           "level": "Intermediate",
           "link": "https://www.analyticsvidhya.com/blog/2021/06/real-life-applications-of-unsupervised-learning/"
         },
         {
           "title": "Silhouette Score, Davies-Bouldin Index",
-          "type": "PDF",
+          "type": "Article",
           "level": "Intermediate",
           "link": "https://scikit-learn.org/stable/modules/clustering.html#clustering-performance-evaluation"
         },
@@ -146,13 +146,13 @@
       "topics": [
         {
           "title": "Introduction to Neural Networks – Neurons & Layers",
-          "type": "PDF",
+          "type": "Article",
           "level": "Beginner",
           "link": "https://www.geeksforgeeks.org/neural-networks/"
         },
         {
           "title": "ReLU, Sigmoid, Tanh – How They Work",
-          "type": "PDF",
+          "type": "Article",
           "level": "Beginner",
           "link": "https://www.analyticsvidhya.com/blog/2021/06/activation-functions-and-its-types/"
         },
@@ -170,7 +170,7 @@
         },
         {
           "title": "Getting Started with TensorFlow & PyTorch",
-          "type": "PDF",
+          "type": "Article",
           "level": "Intermediate",
           "link": "https://www.geeksforgeeks.org/introduction-to-tensorflow-and-pytorch/"
         }
@@ -181,13 +181,13 @@
       "topics": [
         {
           "title": "Tokenization, Lemmatization & Stop Words Removal",
-          "type": "PDF",
+          "type": "Article",
           "level": "Beginner",
           "link": "https://www.geeksforgeeks.org/natural-language-processing-tokenization/"
         },
         {
           "title": "Feature Extraction Techniques for Text",
-          "type": "PDF",
+          "type": "Article",
           "level": "Intermediate",
           "link": "https://www.analyticsvidhya.com/blog/2021/10/feature-engineering-for-text-data/"
         },
@@ -199,7 +199,7 @@
         },
         {
           "title": "Named Entity Recognition, POS Tagging, Text Classification",
-          "type": "PDF",
+          "type": "Article",
           "level": "Intermediate",
           "link": "https://www.geeksforgeeks.org/nlp-python-handling-entity-recognition/"
         },
@@ -216,13 +216,13 @@
       "topics": [
         {
           "title": "Basics: Pixels, Color Models, Histograms",
-          "type": "PDF",
+          "type": "Article",
           "level": "Beginner",
           "link": "https://www.geeksforgeeks.org/image-processing-introduction/"
         },
         {
           "title": "Edge Detection, Contours, Keypoints (SIFT, SURF, ORB)",
-          "type": "PDF",
+          "type": "Article",
           "level": "Intermediate",
           "link": "https://www.geeksforgeeks.org/keypoint-detection-in-image-processing/"
         },
@@ -240,7 +240,7 @@
         },
         {
           "title": "Techniques for Better Model Generalization",
-          "type": "PDF",
+          "type": "Article",
           "level": "Advanced",
           "link": "https://machinelearningmastery.com/generalization-in-machine-learning/"
         }
@@ -251,13 +251,13 @@
       "topics": [
         {
           "title": "Accuracy, Precision, Recall, F1, ROC-AUC – Explained",
-          "type": "PDF",
+          "type": "Article",
           "level": "Beginner",
           "link": "https://www.geeksforgeeks.org/classification-model-evaluation-accuracy-precision-recall-f1-score/"
         },
         {
           "title": "K-Fold, Stratified CV – When and How to Use",
-          "type": "PDF",
+          "type": "Article",
           "level": "Intermediate",
           "link": "https://www.analyticsvidhya.com/blog/2021/07/k-fold-cross-validation/"
         },
@@ -269,7 +269,7 @@
         },
         {
           "title": "Underfitting vs Overfitting – Visual Intuition",
-          "type": "PDF",
+          "type": "Article",
           "level": "Beginner",
           "link": "https://www.geeksforgeeks.org/underfitting-and-overfitting-in-machine-learning/"
         },
@@ -286,7 +286,7 @@
       "topics": [
         {
           "title": "Bias, Fairness, and Transparency in AI – An Overview",
-          "type": "PDF",
+          "type": "Article",
           "level": "Beginner",
           "link": "https://www.ibm.com/blog/bias-in-ai/"
         },
@@ -298,7 +298,7 @@
         },
         {
           "title": "Real-World Cases: Autonomous Cars, Surveillance, Social Scoring",
-          "type": "PDF",
+          "type": "Article",
           "level": "Intermediate",
           "link": "https://builtin.com/artificial-intelligence/examples-of-artificial-intelligence"
         },
@@ -310,9 +310,44 @@
         },
         {
           "title": "Guidelines & Frameworks from Google, IBM, EU AI Act",
-          "type": "PDF",
+          "type": "Article",
           "level": "Advanced",
           "link": "https://artificialintelligenceact.eu/"
+        }
+      ]
+    },
+    {
+      "name": "Gen AI",
+      "topics": [
+        {
+          "title": "What is Generative AI? Real-World Examples & Potential",
+          "type": "Article",
+          "level": "Beginner",
+          "link": "https://huggingface.co/blog/generative-ai"
+        },
+        {
+          "title": "Generative Adversarial Networks – Intuition & Applications",
+          "type": "Article",
+          "level": "Beginner",
+          "link": "https://towardsdatascience.com/generative-adversarial-networks-intuition-and-applications-2f3e6a4d04a1"
+        },
+        {
+          "title": "Variational Autoencoders Explained Visually",
+          "type": "Article",
+          "level": "Beginner",
+          "link": "https://sebastianraschka.com/blog/2022/vae.html"
+        },
+        {
+          "title": "Denoising Diffusion Probabilistic Models (DDPMs)",
+          "type": "Article",
+          "level": "Intermediate",
+          "link": "https://lilianweng.github.io/posts/2021-07-11-diffusion-models/"
+        },
+        {
+          "title": "Why Transformers Power Most Modern Generative Models",
+          "type": "Article",
+          "level": "Intermediate",
+          "link": "https://jalammar.github.io/illustrated-transformer/"
         }
       ]
     }
