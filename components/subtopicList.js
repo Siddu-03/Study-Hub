@@ -21,12 +21,16 @@ export function renderSubtopicList(subtopics) {
 }
 
 function iconForType(type) {
-  if (type === 'PDF') return '📄';
+  if (type === 'Article') return '📄';
   if (type === 'Video') return '🎥';
   return '';
 }
+
 function iconForLevel(level) {
-  if (level === 'Beginner') return '🟢';
-  if (level === 'Intermediate') return '��';
-  return '';
+  switch(level) {
+    case 'Beginner': return '🟢';
+    case 'Intermediate': return '🟡';
+    case 'Advanced': return '🔴';
+    default: return '';
+  }
 } 

@@ -5,13 +5,14 @@ export function renderFilterBar(type, level, onTypeChange, onLevelChange) {
     <div class="flex flex-wrap gap-2 items-center">
       <select id="typeFilter" class="px-3 py-2 border rounded">
         <option value="">All Types</option>
-        <option value="PDF">PDF</option>
+        <option value="Article">Article</option>
         <option value="Video">Video</option>
       </select>
       <select id="levelFilter" class="px-3 py-2 border rounded">
         <option value="">All Levels</option>
         <option value="Beginner">Beginner</option>
         <option value="Intermediate">Intermediate</option>
+        <option value="Advanced">Advanced</option>
       </select>
     </div>
   `;
