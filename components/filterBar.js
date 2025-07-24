@@ -1,5 +1,5 @@
 // FilterBar component: renders type and level filters
-export function renderFilterBar(type, level, onTypeChange, onLevelChange) {
+export function renderFilterBar(type, level, search, onTypeChange, onLevelChange, onSearchChange) {
   const filterBar = document.getElementById('filterBar');
   filterBar.innerHTML = `
     <div class="flex flex-wrap gap-2 items-center">
@@ -14,10 +14,12 @@ export function renderFilterBar(type, level, onTypeChange, onLevelChange) {
         <option value="Intermediate">Intermediate</option>
         <option value="Advanced">Advanced</option>
       </select>
+      <input id="searchInput" type="text" placeholder="Search..." value="${search || ''}" class="px-3 py-2 border rounded w-48" />
     </div>
   `;
   filterBar.querySelector('#typeFilter').value = type;
   filterBar.querySelector('#levelFilter').value = level;
   filterBar.querySelector('#typeFilter').onchange = e => onTypeChange(e.target.value);
   filterBar.querySelector('#levelFilter').onchange = e => onLevelChange(e.target.value);
+  filterBar.querySelector('#searchInput').oninput = e => onSearchChange(e.target.value);
 } 

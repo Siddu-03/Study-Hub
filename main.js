@@ -44,6 +44,7 @@ async function init() {
   let currentSubject = data.subjects[0]?.name || '';
   let typeFilter = '';
   let levelFilter = '';
+  let searchQuery = '';
 
   // Set domain title if present
   const domainTitle = document.getElementById('domainTitle');
@@ -54,17 +55,31 @@ async function init() {
     let topics = subject ? subject.topics : [];
     if (typeFilter) topics = topics.filter(t => t.type === typeFilter);
     if (levelFilter) topics = topics.filter(t => t.level === levelFilter);
+    if (searchQuery) {
+      const q = searchQuery.toLowerCase();
+      topics = topics.filter(t => t.name.toLowerCase().includes(q) || (t.description && t.description.toLowerCase().includes(q)));
+    }
     renderSidebar(data.subjects, currentSubject, (name) => {
       currentSubject = name;
       update();
     });
-    renderFilterBar(typeFilter, levelFilter, (type) => {
-      typeFilter = type;
-      update();
-    }, (level) => {
-      levelFilter = level;
-      update();
-    });
+    renderFilterBar(
+      typeFilter,
+      levelFilter,
+      searchQuery,
+      (type) => {
+        typeFilter = type;
+        update();
+      },
+      (level) => {
+        levelFilter = level;
+        update();
+      },
+      (search) => {
+        searchQuery = search;
+        update();
+      }
+    );
     renderSubtopicList(topics);
   }
 
